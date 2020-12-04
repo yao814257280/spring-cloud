@@ -1,8 +1,9 @@
 # spring-cloud
+## eureka
 ## gateway
 ## ribbon
 ## feign
 ## hystrix
 ## sleuth
 
-##阿里注册中nacos
+##配置中心nacos（阿里开源）
