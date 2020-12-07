@@ -1,4 +1,4 @@
-package com.eureka.client.payment.provide.controller;
+package com.eureka.client.payment.provide.web.controller;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
