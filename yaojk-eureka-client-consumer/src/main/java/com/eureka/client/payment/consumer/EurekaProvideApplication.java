@@ -22,4 +22,4 @@ public class EurekaProvideApplication {
     public static void main(String[] args) {
         SpringApplication.run(EurekaProvideApplication.class, args);
     }
-}yao814257280
+}
