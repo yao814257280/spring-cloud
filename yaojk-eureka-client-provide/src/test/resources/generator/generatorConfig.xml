@@ -35,6 +35,6 @@
 
 <!--        <table tableName="hospital"/>-->
 <!--        <table tableName="hospital_qrcode_settings"/>-->
-        <table tableName="question"/>
+        <table tableName="transaction_message"/>
     </context>
 </generatorConfiguration>
