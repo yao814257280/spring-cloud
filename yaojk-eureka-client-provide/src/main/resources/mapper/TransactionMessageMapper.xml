@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.eureka.client.payment.provide.dao.TransactionMessageMapper">
+  <resultMap id="BaseResultMap" type="com.eureka.client.payment.provide.po.TransactionMessage">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="id" jdbcType="BIGINT" property="id" />
+    <result column="message" jdbcType="VARCHAR" property="message" />
+    <result column="queue" jdbcType="VARCHAR" property="queue" />
+    <result column="status" jdbcType="TINYINT" property="status" />
+    <result column="send_system" jdbcType="VARCHAR" property="sendSystem" />
+    <result column="send_time" jdbcType="TIMESTAMP" property="sendTime" />
+    <result column="send_count" jdbcType="INTEGER" property="sendCount" />
+    <result column="customer_system" jdbcType="VARCHAR" property="customerSystem" />
+    <result column="customer_time" jdbcType="TIMESTAMP" property="customerTime" />
+    <result column="die_time" jdbcType="TIMESTAMP" property="dieTime" />
+    <result column="die_count" jdbcType="INTEGER" property="dieCount" />
+    <result column="ctime" jdbcType="TIMESTAMP" property="ctime" />
+    <result column="utime" jdbcType="TIMESTAMP" property="utime" />
+  </resultMap>
+</mapper>
